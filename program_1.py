@@ -7,7 +7,10 @@ def count_file_lines():
     ######################
     # Add your code here #
     ######################
-    print('In the count_file_lines function')
+    names = open("names.txt","r").read()
+    new_names = names.split()
+    new_names = len(new_names)
+    print(f'there are {new_names} names in the file names.txt')
 
 
 
